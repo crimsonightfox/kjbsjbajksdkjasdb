@@ -1,0 +1,213 @@
+body
+{
+margin:0;
+}
+a
+{
+text-decoration:none;
+color:white;
+}
+.topnav
+{
+	height:48px;
+	background:blue;
+}
+#links
+{
+	float:left;
+	padding:15px;
+	margin:0 15 0 15;
+}
+#links:hover
+{
+	background:red;
+}
+#linksa
+{
+	float:right;
+}
+.content
+{
+	height:300px;
+	background-image:url(image/222.png);
+	background-position:center;
+}
+.content1
+{
+	height:300px;
+	background-image:url(image/454545.jpg);
+	background-position:center;
+}
+#contentsub
+{
+	background:#202020;
+	color:white;
+	opacity:1;
+	padding:20px;
+	border-radius:15px;
+	font-size:20px;
+}
+#subsub
+{
+	font-size:20px;
+}
+#space
+{
+	background:black;
+}
+#side
+{
+	width:250;
+}
+#subtitle
+{
+	font-size:2em;
+	color:gold;
+}
+#subtitle:hover
+{
+	font-size:2em;
+	color:white;
+	text-decoration:underline;
+}
+#sub
+{
+	color:yellow;
+	font-style:italic;
+	font-size:11px;
+}
+#suby
+{
+	color:#dccc80;
+
+	
+}
+#text
+{
+	color:#dccc80;
+}
+.cuntentsub
+{
+	width:25%;
+	background:#1c1c2e;
+	color:white;
+	position:absolute;
+	padding:10px;
+	border-radius:0 5px 5px 0;
+	opacity:.8;
+	animation-name:slide;
+	animation:slide 2s forwards;
+	animation-delay:1s;
+	left:-600;
+}
+@keyframes slide
+{
+	100%{left:0;}
+}
+#text:hover
+{
+	color:white;
+}
+#gamaa
+{
+	float:left;
+	width:200px;
+	height:150;
+}
+.bg1
+{
+	background-image:url(image/helpthemwin_0.jpg);
+	height:270;
+	background-position:center top;
+	background-size:150;
+	filter:blur(5px) brightness(120%);
+}
+#www
+{
+	filter:blur(5px) brightness(100%);
+}
+#www:hover
+{
+	filter:blur(0px) brightness(100%);
+}
+#footer
+{
+background:#999;
+}
+#left
+{
+	float:right;
+}
+#blur
+{
+	filter:blur(50px) brightness(150%);
+	margin:50px;
+}
+.bg2
+{
+	background-image:url(image/112.jpg);
+	height:270;
+	background-position:center;
+	background-size:80%;
+	filter:blur(0px) brightness(120%);
+}
+#divaa
+{
+	height:500px;
+	width:80%;
+	border-radius:15px;
+	border:2px solid red;
+	background-size:100%;
+	background-position:center;
+	transition:1s ease;
+
+}
+#divaa:hover
+{
+
+	border:2px solid blue;
+	background-size:150%;
+	background-position:left top;
+}
+#divaaa
+{
+	height:450px;
+	width:80%;
+	border-radius:15px;
+	border:2px solid red;
+	background-size:120%;
+	background-position:center;
+	transition:1s ease;
+
+}
+#divaaa:hover
+{
+
+	border:4px solid blue;
+	background-size:150%;
+	background-position:right top;
+}
+#diva
+{
+	height:5px;
+	width:5;
+	border-radius:100px;
+	border:36px solid blue;
+	
+	transition:3s ease;
+
+}
+#diva:hover
+{
+	height:525px;
+	width:82%;
+	border-radius:30px;
+	border:2px solid red;
+	
+	
+}
+#theme:hover
+{
+	color:white;
+	width:100%;
+}
